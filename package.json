@@ -1,0 +1,16 @@
+{
+  "name": "todo-pomodoro-monorepo",
+  "version": "0.1.0",
+  "description": "Pomodoro todo app with React shell + Angular/Vue MFE modules",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.27.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}
